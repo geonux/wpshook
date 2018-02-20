@@ -1,6 +1,7 @@
 {
 	"id": "test",
-	"description": "desc desc desc",
+	"title": "desc desc desc",
+	"abstract": "desc desc desc",
 	"inputs": [{
 			"type": "string",
 			"identifier": "name",
