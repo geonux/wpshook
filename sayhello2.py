@@ -1,6 +1,7 @@
 from pywps import UOM
 
 conf = {
+    "handler": "say_hello",
     "inputs": [
     {
         "type": "string",
