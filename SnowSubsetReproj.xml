@@ -18,8 +18,8 @@
       <targetHeight/>
       <targetResolution/>
       <upsampling>${upsampling}</upsampling>
-      <downsampling>${upsampling}</downsampling>
-      <flagDownsampling>First</flagDownsampling>
+      <downsampling>${downsampling}</downsampling>
+      <flagDownsampling>${flagDownsampling}</flagDownsampling>
       <resampleOnPyramidLevels>true</resampleOnPyramidLevels>
     </parameters>
   </node>
