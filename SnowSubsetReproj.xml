@@ -18,7 +18,7 @@
       <targetHeight/>
       <targetResolution/>
       <upsampling>${upsampling}</upsampling>
-      <downsampling>First</downsampling>
+      <downsampling>${downsampling}</downsampling>
       <flagDownsampling>First</flagDownsampling>
       <resampleOnPyramidLevels>true</resampleOnPyramidLevels>
     </parameters>
