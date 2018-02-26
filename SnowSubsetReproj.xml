@@ -19,7 +19,7 @@
       <targetResolution/>
       <upsampling>${upsampling}</upsampling>
       <downsampling>${a_downsampling}</downsampling>
-      <flagDownsampling>${sdfsdfsdf_flagDownsampling}</flagDownsampling>
+      <flagDownsampling>${sdfsdfsdf_flagdwnsampling}</flagDownsampling>
       <resampleOnPyramidLevels>true</resampleOnPyramidLevels>
     </parameters>
   </node>
