@@ -18,8 +18,8 @@
       <targetHeight/>
       <targetResolution/>
       <upsampling>${upsampling}</upsampling>
-      <downsampling>${downsampling}</downsampling>
-      <flagDownsampling>${flagDownsampling}</flagDownsampling>
+      <downsampling>First</downsampling>
+      <flagDownsampling>First</flagDownsampling>
       <resampleOnPyramidLevels>true</resampleOnPyramidLevels>
     </parameters>
   </node>
@@ -50,8 +50,8 @@
     <parameters class="com.bc.ceres.binding.dom.XppDomElement">
       <sourceBands>ndsi</sourceBands>
       <region>0,0,1830,1830</region>
-      <!--<geoRegion/>-->
-      <geoRegion>POLYGON ((${minLon} ${maxLat}, ${maxLon} ${maxLat}, ${maxLon} ${minLat}, ${minLon} ${minLat}, ${minLon} ${maxLat}))</geoRegion>
+      <geoRegion/>
+      <!-- <geoRegion>POLYGON ((${minLon} ${maxLat}, ${maxLon} ${maxLat}, ${maxLon} ${minLat}, ${minLon} ${minLat}, ${minLon} ${maxLat}))</geoRegion> -->
       <subSamplingX>1</subSamplingX>
       <subSamplingY>1</subSamplingY>
       <fullSwath>false</fullSwath>
